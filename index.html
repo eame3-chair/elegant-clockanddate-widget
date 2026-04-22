@@ -32,7 +32,7 @@
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 18px 24px 16px;
+      padding: 18px 24px 18px;
       text-align: center;
       width: 100%;
       position: relative;
@@ -45,6 +45,7 @@
       font-size: 60px;
       font-weight: 300;
       color: #4a4a46;
+      letter-spacing: 0.03em;
       line-height: 1;
       margin-bottom: 4px;
     }
@@ -70,6 +71,9 @@
       background: var(--divider);
       margin: 12px 0 11px;
     }
+    .divider-bottom {
+      margin-bottom: 0;
+    }
 
     /* ── Calendar info row ── */
     .cal-row {
@@ -85,7 +89,7 @@
       align-items: center;
       justify-content: center;
       gap: 3px;
-      padding: 0 8px;
+      padding: 0 4px;
     }
     .cal-cell + .cal-cell {
       border-left: 1px solid var(--divider);
@@ -150,7 +154,7 @@
       </div>
     </div>
 
-  </div>
+    <div class="divider divider-bottom"></div>
   <script>
     const DAYS   = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
     const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
