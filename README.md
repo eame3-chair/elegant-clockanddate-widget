@@ -1,1 +1,1 @@
-# elegant-clockanddate-widget
+# elegant-weeklyview-widget
